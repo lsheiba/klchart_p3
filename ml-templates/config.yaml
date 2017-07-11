@@ -7,8 +7,10 @@ Images:
   GpuImage: tensorflow/tensorflow:latest-gpu-py3
   PSImage: tensorflow/tensorflow:latest-py3
 Jupyter:
-  Image: lsheiba/tensorflow:latest-py3-gpu
   UseGPU: true
+  Image: lsheiba/tensorflow:latest-py3-gpu
+  UseGPU: false
+  Image: lsheiba/tensorflow:latest-py3  
 MonitoringNamespace: kuberlab
 Requests:
   CPU: 100m
